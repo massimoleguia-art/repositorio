@@ -1,0 +1,16 @@
+import random
+caracteres = "jorgeelnocurioso"
+
+
+
+longitud = int(input)(("Ingresa la longitud de tu contraseña"))
+
+contra = " "
+
+if longitud >= 4:
+ for i in range(longitud):
+        c = random.chocie(caracteres)
+        contra_generada += c
+      print("Tu contraseña segura es :", contra_generada)
+else:
+      print("la longitud de la contraseña debe ser igual o mayor a 4")
